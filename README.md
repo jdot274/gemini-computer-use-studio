@@ -1,3 +1,29 @@
+# 🚀 APOS - Autonomous Personal Operating System
+
+> **From CLI Tool to Complete Operating Environment**
+
+## 🎯 What is APOS?
+
+APOS is not just another CLI tool—it's a complete **Autonomous Personal Operating System** that bridges the gap between human intent and system execution across all computing surfaces:
+
+- 🖥️ **Terminal**: Real PTY integration with intelligent command execution
+- 🌍 **Browser**: Full automation and control via Playwright
+- 📁 **Files**: Workspace monitoring with git integration
+- ☁️ **Cloud**: Multi-provider infrastructure automation
+- 🧠 **AI**: Continuous planning, execution, and auto-fix loop
+
+### Core Philosophy
+
+Traditional CLI tools require manual coding, explicit commands, and constant human intervention. APOS flips this model:
+
+1. **You provide intent** ("Fix the failing tests")
+2. **AI plans the approach** (analyze errors, generate fixes)
+3. **Kernel executes autonomously** (runs commands, edits files, checks results)
+4. **System self-corrects** (detects errors, generates fixes, retries)
+5. **You approve when needed** (dangerous operations require confirmation)
+
+---
+
 # 🚀 Gemini Computer Use Studio
 
 AI-powered CLI copilot UI with Gemini Computer Use integration. Terminal monitoring, auto-fix, and browser control.
@@ -11,6 +37,9 @@ AI-powered CLI copilot UI with Gemini Computer Use integration. Terminal monitor
 - **No Manual Coding** - AI runs commands, edits files, checks results
 
 ## 🏗️ Architecture
+
+For comprehensive architectural documentation, see **[ARCHITECTURE.md](./ARCHITECTURE.md)**.
+
 
 ```
 gemini-computer-use-studio/
