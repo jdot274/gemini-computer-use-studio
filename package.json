@@ -1,0 +1,27 @@
+{
+  "name": "gemini-computer-use-studio",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"node server/server.js\"",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "express": "^4.18.2",
+    "node-pty": "^1.0.0",
+    "playwright": "^1.40.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1",
+    "xterm": "^5.3.0",
+    "xterm-addon-fit": "^0.8.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "concurrently": "^8.2.2",
+    "vite": "^5.0.0"
+  }
+}
